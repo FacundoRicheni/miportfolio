@@ -1,0 +1,736 @@
+* {
+    margin: 0;
+    color: aliceblue;
+}
+
+
+
+html {
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+a{
+    display: flex;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+header {
+    padding: 1%;
+    top: 0px;
+    background-color: black;
+}
+
+.logo2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-bottom: -3%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    font-size: 20px bold;
+    margin-right: 15px;
+    color: whitesmoke ;
+    font-style: bold;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.425);
+    
+}
+
+
+ul{
+    list-style: none;
+    display:flex;
+    float: none;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    color: whitesmoke ;
+    font-style: bold;
+    font-weight: bolder;
+}
+
+ul.listnavbar{
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+body {
+    background-color: rgba(0, 9, 39, 0.952);
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    margin-bottom:8%;
+    align-items: center;
+    color: whitesmoke ;
+    font-style: bold;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.425);
+}
+
+main {
+    background-size: cover;  
+    margin: 0px;  
+    padding: 0px;
+    background-image: url(../assets/img/backgr/puente4.jpg);
+    font: bolder;   
+}
+
+.listnavbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textnavbar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    font-style: bold;
+    border-color: black;
+}
+
+section.inicio{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.perfil1{
+    display: flex;
+    width: 400px;
+    border-radius: 60%;
+    border-style:groove;
+    align-items: center;
+    justify-items: center;
+    margin-top: -15%;
+}
+
+.textinicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 45px;
+    border-color: black 4px solid;
+}
+
+.parrafoinicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.proyectos {
+    color: whitesmoke;
+    gap: 15%;
+    display: grid;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-template-areas: 
+    " titleprojects";
+}
+
+.titleprojects{
+    display: flex;
+    flex:content;
+    color: whitesmoke;
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 0%;
+    margin-left: 0% ;
+    width:fit-content;
+    height: fit-content;
+    grid-area: titleprojects ;
+
+}
+
+.imgproyecto {
+    padding: 5px;
+    border-radius: 8px ;
+    border: 2px groove rgba(169, 169, 169, 0.459);
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+
+
+.txtpagproyecto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servicios {
+    color: whitesmoke;
+    margin: 20px;
+    gap: 15%;
+    display: grid;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    grid-template-columns: auto auto ;
+    grid-template-rows:  auto auto;
+    grid-template-areas: 
+    "servicios servicios";
+   
+}
+
+.titleservicio {
+
+    display: flex;
+    flex:content;
+    color: whitesmoke;
+    font-size: 45px;
+    text-decoration: underline;
+    justify-content: center;
+    margin-top: 100px;
+    width:fit-content;
+    height: fit-content;
+    grid-area: titleservicio ;
+}
+
+.imgservicio {
+    border-radius: 8px ;
+    border: 2px groove rgba(169, 169, 169, 0.459);
+    width: 300px;
+    height: 200px;
+    margin-top: 3%;
+    margin-bottom:3%;
+    margin-left: 30px;
+    margin-right: 30px;  
+}
+
+.logodef2{
+    width: 5%;
+    margin-bottom: -4%;
+}
+
+.textservicio {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    
+}
+
+.contacto{
+    display: flex;
+    flex-wrap:wrap;
+    color: whitesmoke;   
+    font-size: 20px;
+}
+
+.titlecontacto {
+    display: flex;
+    flex: auto;
+}
+
+.textcontacto {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+} 
+
+
+
+.bodycontacto{
+    color: whitesmoke;
+    height: 120%;    
+
+}
+
+fieldset{
+   margin: 2%;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.contenedorform{
+    justify-content: center;
+}
+
+.headercontacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.logo2cont {
+    display: flex;
+    justify-content: flex-start ;
+    width: 20%;
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.textheadcont{
+    align-self:center;
+    text-decoration:underline;
+    justify-self:center;
+    
+}
+
+.formcontacto {
+    grid-area: formcontacto;
+}
+
+.contacto{
+    display: flex;
+    flex: auto;
+    color: whitesmoke;   
+    font-size: 20px;
+}
+
+.textcontacto {
+    grid-area: links;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+} 
+
+.mensaje {
+    width: 100%;
+}
+
+h4 {
+    margin: 4px;
+}
+
+input {
+    gap: 3;
+    display: flex;
+    color: black;
+    width: 300px;
+    
+}
+
+legend{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 42, 78, 0.151);
+    padding: 5%;
+}
+
+
+textarea{
+    width: 80%;
+}
+
+
+
+.botones{
+    display: flex;
+    gap: 15px;
+    width: 80px;
+    
+}
+
+input{
+    size: 500px;
+}
+
+.titulomisproyectos {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.imgpagproyecto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imagproyecto{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    border: 2px solid whitesmoke;
+    transition:all .2s ease-in-out ;
+    filter: blur(0.5px);
+}
+
+
+.imagproyecto:hover {  
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+    overflow:hidden; 
+    filter: saturate(300%);
+    }
+
+.txtpagproyecto{
+    background-color: rgba(240, 248, 255, 0.637);
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    width:50% ;
+    height: 130px;
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    padding: 15px;
+    color: black;
+
+}
+
+
+.imagproyectos {
+    margin-top: 4%;
+    border-radius: 10px ;
+    border-color: 3px solid aliceblue;
+
+}
+
+.imagproyectos:hover {  
+    filter: saturate(300%);
+    }
+
+
+.servicioinicio {
+    margin-top: 4%;
+    border-radius: 10px ;
+    border-color: 3px solid aliceblue;
+    filter: saturate(200%);
+}
+
+.servicioinicio:hover {  
+    filter: saturate(300%) ;
+    }
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+
+
+
+.textcontacto{
+    color: whitesmoke;
+    font-size: 20px;
+    gap: 15px;
+}
+
+.logozoom:hover {  
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow:hidden; 
+    filter: saturate(1300%);
+    }
+/*INICIO MEDIA QUERIES*/
+
+
+@media only screen and (max-width:1024px) {
+    .inicio, .proyectos, .servicios, nav,  footer{ 
+        display: flex;        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+    .logodef2{
+        display: flex;
+        flex-wrap: wrap;   
+        width: 5%;
+        height: 5%;
+    }
+
+    .titlecontacto{
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .perfil1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+        align-items: center;
+    }
+    .img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        column-gap: 2px;
+    }
+    
+
+    h1{
+        display: flex;
+        font-size: 20px;
+    }
+    .headercontacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+
+    .logo2cont{
+        width: 40%;
+    }
+
+    .imagproyectos {
+        margin-top: 4%;
+        border-radius: 25px;
+    }
+    
+    h3{
+        color: rgba(0, 9, 39, 0.952);
+        font-size: 45px;
+        font-weight: bold;
+        background-color: rgb(219, 219, 219);
+        border-radius: 8px;
+        border: 4px solid grey;
+        width: 250px;
+    }
+
+    .servicioinicio{
+       display: flex;
+       flex-wrap: wrap;
+        
+    }
+
+    .logodef2{
+        margin-top: -20px;
+        margin-right: 40%;
+    }
+}
+
+
+
+
+@media only screen and (max-width:940px) {
+    .inicio, .proyectos, .servicios, nav,  footer{ 
+        display: flex;        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+    .logodef2{
+        display: flex;
+        flex-wrap: wrap;   
+        width: 5%;
+        height: 5%;
+    }
+
+    .titlecontacto{
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .perfil1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+        align-items: center;
+    }
+    .img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        column-gap: 2px;
+    }
+    
+
+    h1{
+        display: flex;
+        font-size: 20px;
+    }
+    .headercontacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+
+    .logo2cont{
+        width: 40%;
+    }
+
+    .imagproyectos {
+        margin-top: 4%;
+        border-radius: 25px;
+    }
+    
+    h3{
+        color: rgba(0, 9, 39, 0.952);
+        font-size: 45px;
+        font-weight: bold;
+        background-color: rgb(219, 219, 219);
+        border-radius: 8px;
+        border: 4px solid grey;
+        width: 250px;
+    }
+
+    .servicioinicio{
+        width: 800px;
+        height: 360px;
+        border-radius: 25px;
+    }
+
+    .logodef2{
+        margin-top: -20px;
+        margin-right: 40%;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .inicio, .proyectos, .servicios, nav,  footer{ 
+        display: flex;        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textcontacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+    .logodef2{
+        display: flex;
+        flex-wrap: wrap;   
+        width: 4%;
+        height: 4%;
+    }
+
+    .titlecontacto{
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .perfil1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 65%;
+        align-items: center;
+    }
+    .img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        column-gap: 2px;
+    }
+    
+
+    h1{
+        display: flex;
+        font-size: 20px;
+    }
+    .headercontacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 2%;
+    }
+
+    .logo2cont{
+        width: 40%;
+    }
+
+    .imagproyectos {
+        margin-top: 4%;
+        border-radius: 25px;
+    }
+    
+    h3{
+        color: rgba(0, 9, 39, 0.952);
+        font-size: 45px;
+        font-weight: bold;
+        background-color: rgb(219, 219, 219);
+        border-radius: 8px;
+        border: 4px solid grey;
+        width: 250px;
+    }
+
+    .servicioinicio{
+        width: 691px;
+        height: 396px;
+        border-radius: 25px;
+    }
+
+    .logodef2{
+        width: 40px;
+        margin-right: 25%;
+    }
+}
