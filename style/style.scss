@@ -40,3 +40,8 @@ h3{
     border: 3px solid rgb(3, 70, 93);
 }
 
+.imagproyectos{
+    @extend .imagproyectos;
+    border: 3px solid rgb(3, 70, 93);
+}
+

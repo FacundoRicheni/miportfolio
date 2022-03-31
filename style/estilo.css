@@ -668,6 +668,7 @@ input{
         display: flex;        
         flex-direction: column;
         align-items: center;
+        font-size: 25px;
     }
 
     .textcontacto {
@@ -756,6 +757,51 @@ input{
         margin-top: 15px;
         margin-bottom: 10px;
         cursor: pointer;
+    }   
+    
+
+    .imgpagproyecto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3%;
     }
+
+    .imagproyecto{
+        width: 80%;
+        margin: 0%;
+        margin-bottom: -1%;
+        border: 3px solid rgb(3, 70, 93);
+    }
+
+    .txtpagproyecto{
+        width: 80%;
+        border: 3px solid rgb(3, 70, 93);
+        height: 200px;
+    }
+
+    .navprecios{
+        display:flex;
+        align-items: center;
+
+    }
+
+    .navproyectos{
+        margin-left: 4%;
+    }
+
+    
+    .navformulario{
+        margin-left: 3%; ;
+    }
+    
+    .navservicios{
+        margin-left: 3%;
+    }
+
+    .contenedormsj{
+        width: 350px;
+    }
+
 
 }
