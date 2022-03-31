@@ -472,7 +472,7 @@ input{
 /*INICIO MEDIA QUERIES*/
 
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:960px) {
     .inicio, .proyectos, .servicios, nav,  footer{ 
         display: flex;        
         flex-direction: column;
@@ -490,6 +490,13 @@ input{
         align-items: center;
     }
 
+    .profpic{
+        margin-top: 10%;
+    }
+
+    .servicioinicio{
+        width: 40%;
+    }
 
     .logodef2{
         display: flex;
@@ -561,7 +568,7 @@ input{
 
 
 
-@media only screen and (max-width:940px) {
+@media only screen and (max-width:768px) {
     .inicio, .proyectos, .servicios, nav,  footer{ 
         display: flex;        
         flex-direction: column;
@@ -649,7 +656,7 @@ input{
 
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:425px) {
     .inicio, .proyectos, .servicios, nav,  footer{ 
         display: flex;        
         flex-direction: column;
@@ -659,6 +666,11 @@ input{
     .textcontacto {
         display: flex;
         flex-direction: column;
+    }
+
+    .profpic {
+        width: 60%;
+        margin-top: 15%;
     }
 
     header{
@@ -724,8 +736,8 @@ input{
     }
 
     .servicioinicio{
-        width: 691px;
-        height: 396px;
+        width: 364px;
+        height: 195px;
         border-radius: 25px;
     }
 
