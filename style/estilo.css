@@ -91,6 +91,7 @@ main {
     padding: 0px;
     background-image: url(../assets/img/backgr/puente4.jpg);
     font: bolder;   
+
 }
 
 .listnavbar{
@@ -665,10 +666,15 @@ input{
 
 @media only screen and (max-width:425px) {
     .inicio, .proyectos, .servicios, nav,  footer{ 
-        display: flex;        
+        display: flex;
+        width: 100%;        
         flex-direction: column;
         align-items: center;
         font-size: 21px;
+    }
+
+    body{
+        width: 425px;
     }
 
     .textcontacto {
