@@ -6,8 +6,8 @@ $bgcolor: rgba(0, 9, 39, 0.808);
 }
 
 
-.servicioinicio{
-    width: 500px;
+.servicioinicio {
+    width: 400px;
     height: 250px;
 }
 
@@ -18,3 +18,13 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@mixin fontstyle {
+    color: aliceblue;    
+    font-weight: bold;
+}
+
+h3{
+    @include fontstyle();
+}
+

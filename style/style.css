@@ -4,7 +4,7 @@
 }
 
 .servicioinicio {
-  width: 500px;
+  width: 400px;
   height: 250px;
 }
 
@@ -14,5 +14,10 @@ footer {
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+h3 {
+  color: aliceblue;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

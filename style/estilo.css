@@ -232,8 +232,9 @@ section.inicio{
 }
 
 .logodef2{
-    width: 5%;
-    margin-bottom: -4%;
+    width: 6%;
+    margin-bottom: -5%;
+    cursor: pointer;
 }
 
 .textservicio {
@@ -469,6 +470,12 @@ input{
     overflow:hidden; 
     filter: saturate(1300%);
     }
+
+
+
+
+
+
 /*INICIO MEDIA QUERIES*/
 
 
@@ -745,6 +752,8 @@ input{
     .logodef2{
         width: 60px;
         margin-right: 25%;
+        margin-top: 15px;
+        cursor: pointer;
     }
 
     body{
