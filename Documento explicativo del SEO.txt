@@ -1,0 +1,8 @@
+Mejoré la visibilidad de mi página mediante el uso de SEO en el archivo index.html de la siguiente manera:
+
+Descripción: utilizando la etiqueta meta name description sume un párrafo: “Éste es mi primer Portfolio Web personal como Diseñador Web en el cual podrás ver diferentes proyectos que realicé y los servicios que ofrezco”.
+
+
+Palabras Clave: haciendo uso de la etiqueta meta name keywords agregué las palabras clave que acompañarán a todas las paginas de mi sitio "Portfolio Desarrollo web, Web Design, Front End, Full Stack, CSS3, HTML5".
+Encabezado: mediante las etiquetas h1 y h2 realicé una introducción breve diciendo lo siguiente: “Hola! Soy Facundo Full Stack developer & Web Designer”
+
