@@ -683,8 +683,9 @@ input{
     .logodef2{
         display: flex;
         flex-wrap: wrap;   
-        width: 4%;
-        height: 4%;
+        width: 30px;
+        height: 10%;
+        margin-top: 15px;
     }
 
     .titlecontacto{
@@ -742,7 +743,11 @@ input{
     }
 
     .logodef2{
-        width: 40px;
+        width: 60px;
         margin-right: 25%;
+    }
+
+    body{
+        
     }
 }
