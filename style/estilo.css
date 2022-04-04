@@ -673,9 +673,6 @@ input{
         font-size: 21px;
     }
 
-    body{
-        width: 425px;
-    }
 
     .textcontacto {
         display: flex;
@@ -710,7 +707,7 @@ input{
     .perfil1{
         display: flex;
         flex-wrap: wrap;
-        width: 65%;
+        width: 150px;
         align-items: center;
     }
     .img{
@@ -774,14 +771,15 @@ input{
     }
 
     .imagproyecto{
-        width: 80%;
+        width: 364px;
+        height: 195px;
         margin: 0%;
         margin-bottom: -1%;
         border: 3px solid rgb(3, 70, 93);
     }
 
     .txtpagproyecto{
-        width: 80%;
+        width: 364px;
         border: 3px solid rgb(3, 70, 93);
         height: 200px;
     }
@@ -809,5 +807,11 @@ input{
         width: 350px;
     }
 
+    body{
+        box-sizing: content-box;
+    }
+
+
+    
 
 }
