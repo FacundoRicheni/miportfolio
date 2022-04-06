@@ -17,10 +17,12 @@ a{
     text-decoration: none;
 }
 
-
+a.nav-link{
+    font-size: 22px;
+}
 
 header {
-    padding: 1%;
+    padding: 2%;
     top: 0px;
     background-color: black;
 }
@@ -77,7 +79,7 @@ img{
 .inicio {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 18%;
+    margin-top: 10%;
     margin-bottom:8%;
     align-items: center;
     color: whitesmoke ;
@@ -113,6 +115,10 @@ section.inicio{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+}
+
+section.inicio{
+    margin-bottom: 10%;
 }
 
 .perfil1{
@@ -477,7 +483,8 @@ input{
 }
 
 .logozoom:hover {  
-    -webkit-transform:scale(1.3);transform:scale(1.3);
+    -webkit-transform:scale(1.3)
+    ;transform:scale(1.5);
     overflow:hidden; 
     filter: saturate(1300%);
     }
@@ -508,9 +515,36 @@ h1.titulomisproyectos{
         align-items: center;
     }
 
+    img.logozoom{
+        margin-top: -90%;
+    }
+
+    img.servicioinicio{
+        width: 560px;
+        height: 328px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    img.imagproyectos{
+        width: 560px;
+        height: 328px;
+        margin-bottom: 5%;
+    }
+
+    div.tituloproyectos{
+        display: flex;
+        justify-content: center;
+    }
+
+
     .textcontacto {
         display: flex;
         flex-direction: column;
+    }
+
+    .vermasproyectos{
+        margin-top: 13%;
     }
 
     header{
@@ -545,6 +579,7 @@ h1.titulomisproyectos{
         width: 65%;
         align-items: center;
     }
+
     .img{
         margin-top: 15px;
         margin-bottom: 15px;
@@ -589,8 +624,21 @@ h1.titulomisproyectos{
     }
 
     .logodef2{
-        margin-top: -20px;
-        margin-right: 40%;
+        width: 80px;
+        margin-right: 20%;
+    }
+    
+    header{
+        height: 80px;
+        position: sticky;
+    }
+
+    .nav{
+        position: sticky;
+    }
+
+    .proyectos{
+        margin-top: -5%;
     }
 }
 
@@ -694,6 +742,10 @@ h1.titulomisproyectos{
         font-size: 21px;
     }
 
+    body{
+        overflow: hidden;
+    }
+
 
     .textcontacto {
         display: flex;
@@ -709,6 +761,7 @@ h1.titulomisproyectos{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        height: fit-content;
     }
 
     
@@ -718,7 +771,7 @@ h1.titulomisproyectos{
         flex-wrap: wrap;   
         width: 30px;
         height: 10%;
-        margin-top: 15px;
+        margin-top: 15%;
     }
 
     .titlecontacto{
@@ -738,6 +791,10 @@ h1.titulomisproyectos{
 
     }
     
+    .logodef2{
+        display: flex;
+        width: 80px;
+    }
 
     h1{
         display: flex;
@@ -757,6 +814,7 @@ h1.titulomisproyectos{
     .imagproyectos {
         margin-top: 4%;
         border-radius: 25px;
+
     }
     
     h3{
@@ -843,6 +901,12 @@ h1.titulomisproyectos{
         margin-bottom: 5%;
     }
 
+    h3.verproyectos{
+        background: none;
+        border: none;
+        color: aliceblue;
+    }
+
     .paginadeproyectos{
         display: flex;
         flex-direction: column;
@@ -855,6 +919,10 @@ h1.titulomisproyectos{
         margin:auto;
     }
 
+    img.imagproyectos{
+        width: 100%;
+    }
+
     .txtpagproyecto{
         width:403px;
         border: 3px solid rgb(3, 70, 93);
@@ -864,8 +932,16 @@ h1.titulomisproyectos{
         
     }
 
+    .nav{
+        position: relative;
+    }
     img.imagproyecto{
         width: 403px;
         height: 185px;
+    }
+
+    img.logozoom{
+        margin-top: 10%;
+        width: 100px;
     }
 }
