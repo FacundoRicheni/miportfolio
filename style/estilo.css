@@ -742,10 +742,6 @@ h1.titulomisproyectos{
         font-size: 21px;
     }
 
-    body{
-        overflow: hidden;
-    }
-
 
     .textcontacto {
         display: flex;
@@ -932,13 +928,12 @@ h1.titulomisproyectos{
         
     }
 
-    .nav{
-        position: relative;
-    }
+    
     img.imagproyecto{
         width: 403px;
         height: 185px;
     }
+
 
     img.logozoom{
         margin-top: 10%;
