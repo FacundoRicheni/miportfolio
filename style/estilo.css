@@ -742,6 +742,10 @@ h1.titulomisproyectos{
         font-size: 21px;
     }
 
+    .nav{
+        position: static;
+    }
+    
 
     .textcontacto {
         display: flex;
