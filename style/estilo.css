@@ -760,8 +760,8 @@ h1.titulomisproyectos{
     }
 
     .servicioinicio{
-        width: 364px;
-        height: 195px;
+        width: 379px;
+        height: 175px;
         margin: 0%;
         margin-bottom: 2%;
         border: 3px solid rgb(3, 70, 93);
@@ -822,11 +822,4 @@ h1.titulomisproyectos{
     .contenedormsj{
         width: 350px;
     }
-
-
-    
-    
-
-
-    
-
+}
