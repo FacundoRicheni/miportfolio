@@ -155,7 +155,8 @@ section.inicio{
     grid-template-columns: auto auto ;
     grid-template-rows: auto auto ;
     grid-template-areas: 
-    " titleprojects";
+    " auto auto"
+    "auto titleprojects";
 }
 
 .titleprojects{
@@ -690,6 +691,7 @@ input{
         align-items: center;
     }
 
+    
 
     .logodef2{
         display: flex;
@@ -750,7 +752,10 @@ input{
     .servicioinicio{
         width: 364px;
         height: 195px;
-        border-radius: 25px;
+        margin: 0%;
+        margin-bottom: -1%;
+        border: 3px solid rgb(3, 70, 93);
+    }
     }
 
     .logodef2{
@@ -807,11 +812,7 @@ input{
         width: 350px;
     }
 
-    body{
-        box-sizing: content-box;
-    }
 
 
     
 
-}
