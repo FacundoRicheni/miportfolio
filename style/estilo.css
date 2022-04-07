@@ -426,10 +426,8 @@ input{
     display: flex;
     flex-wrap: wrap;
     font-size: 15px;
-    width:50% ;
+    width:350px ;
     height: 130px;
-    margin-top: 0.5%;
-    margin-bottom: 5%;
     text-align: justify;
     padding: 15px;
     color: black;
@@ -495,7 +493,15 @@ input{
 .paginadeproyectos{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto ;
+}
+
+.imgpagproyecto{
+    justify-content: center;
+}
+
+img.imagproyecto{
+    width: 350px;
 }
 
 h1.titulomisproyectos{
