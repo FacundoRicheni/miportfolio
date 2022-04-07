@@ -530,6 +530,10 @@ h3{
         align-items: center;
     }
 
+    header{
+        position: absolute;
+    }
+
     img.logozoom{
         margin-top: -90%;
     }
