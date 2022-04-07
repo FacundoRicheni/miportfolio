@@ -446,7 +446,7 @@ input{
 .imagproyectos:hover {  
     filter: saturate(300%);
     transition:all .5s ease-in-out;
-    -webkit-transform:scale(1.3);
+    -webkit-transform:scale(1.2);
     }
 
 
@@ -463,8 +463,14 @@ input{
 }
 
 .servicioinicio:hover {  
-    filter: saturate(300%) ;
+    filter: saturate(300%);
+    transition:all .5s ease-in-out;
+    -webkit-transform:scale(1.2);
     }
+
+.servicioinicio{
+    overflow: hidden;
+}
 
 .tarjetas{
     display: flex;
@@ -481,13 +487,11 @@ input{
 }
 
 .logozoom:hover {  
-    -webkit-transform:scale(1.3)
-    ;transform:scale(1.5);
+    -webkit-transform:scale(1.3);
+    transform:scale(1.5);
     overflow:hidden; 
     filter: saturate(1300%);
-    }
-
-
+}
 
 
 .paginadeproyectos{
@@ -509,6 +513,11 @@ h1.titulomisproyectos{
     margin-bottom: 2%;
     font-weight: 600;
 
+}
+
+h3{
+    margin-top: -5%;
+    margin-bottom: -5%;
 }
 
 /*INICIO MEDIA QUERIES*/
