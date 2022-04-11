@@ -999,4 +999,9 @@ h3{
     footer{
         overflow: hidden;
     }
+
+    .ulfooter{
+        display: flex;
+        flex-direction: column;
+    }
 }
